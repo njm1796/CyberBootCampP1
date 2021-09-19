@@ -88,7 +88,7 @@ We have installed the following Beats on these machines:
 -	Metricbeat
 
 These Beats allow us to collect the following information from each machine:
-- _TODO: In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc.
+-In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc.
 Filebeat collects information on changes made to the file system. Metricbeat collects information on the metrics and statistics of the system. 
  
 
@@ -105,7 +105,7 @@ SSH into the control node and follow the steps below:
 -	
 - Run the playbook, and navigate to the web vms to check that the installation worked as expected.
 
-_TODO: Answer the following questions to fill in the blanks: 
+_Answer the following questions to fill in the blanks: 
 - _Which file is the playbook? Where do you copy it? /etc/ansible/file/filebeat-configuration.yml
 
 - _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on? The host file. Edit the /etc/ansible/host file to add webserver/elkserver ip addresses and ansible_python_interpreter=/usr/bin/python3
